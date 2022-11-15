@@ -13,3 +13,5 @@ print(type(2)) # Type 'int'
 print(type(2.2)) # Type 'float'
 print(type(True)) # Type 'bool'
 print(type(1 + 2j)) # Type 'complex'
+
+print(type(print('Foo'))) # Type 'NoneType'
